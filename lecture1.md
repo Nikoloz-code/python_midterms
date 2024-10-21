@@ -90,3 +90,57 @@ print(intNumber)
 %  -> ნაშთის დაბრუნება, მაგ: i % j.
 ** -> ხარისხად აყვანა, მაგ: i ** j.
 ```
+---
+---
+# სავარჯიშოები რომლებიც შეგიძლიათ გააკეთოთ უკეთესი გააზრებისთვის
+
+### რა არის მათი type?
+- 1234
+- 8.99
+- 9.0
+- True
+- False
+- float(123)
+- round(7.9)
+- float(round(7.2))
+- int(7.2)
+- int(7.9)
+
+### რა დაიბეჭდება?
+- print(3.0-1)
+- type(4*3)
+- type(4.0*3)
+- int(1/2)
+
+### რომელი დაიშვება პითონში?
+1. x = 6
+2. 6 = x
+3. x*y = 3+4
+4. xy = 3+4
+5. არცერთი ზემოთ ჩამოთვლილთაგანი
+
+### რას უდრის x და y პროგრამის დასრულებისას?
+```python
+x = 1
+y = 2
+
+y = x
+x = y
+```
+### რა დაიბეჭდება?
+```python
+georgia_gold = 13
+usa_gold= 7
+romania_gold = 1
+
+total_gold =  georgia_gold + usa_gold + romania_gold 
+print(total_gold)
+
+romania_gold += 1
+print(total_gold)
+```
+
+# სავარჯიშოების ლინკები
+- https://www.hackerrank.com/challenges/py-if-else/problem?isFullScreen=true
+- https://www.hackerrank.com/challenges/python-arithmetic-operators/problem?isFullScreen=true
+- https://www.hackerrank.com/challenges/python-division/problem?isFullScreen=true
